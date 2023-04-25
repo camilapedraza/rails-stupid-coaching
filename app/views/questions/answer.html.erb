@@ -1,0 +1,11 @@
+<h1>Stupid Coaching</h1>
+<div class="question">
+  <p class="question-text"><em><%= @question %></em></p>
+  <p style="margin-left: 10px;"><strong>- You</strong></p>
+</div>
+<div class="answer">
+  <p style="font-size: 26px;"><em><%= @answer %></em></p>
+  <p style="margin-left: 10px;"><strong>- Your coach</strong></p>
+</div>
+<p style="margin-left: 20px;">
+<%= link_to "Ask another question", ask_path, class: "btn btn-outline-primary" %>
